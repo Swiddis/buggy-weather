@@ -1,6 +1,6 @@
 const updateUrl = (city, units) => {
   let api = '76f73d332c6b78d5957608a210a5f8d8';
-  return `http://api.openweathermap.org/data/2.5/forecast?lang=en&q=${city}&units=${units}&APPID=${api}`
+  return `https://api.openweathermap.org/data/2.5/forecast?lang=en&q=${city}&units=${units}&APPID=${api}`
 };
 
 let units = 'imperial', unitSymbol = '&deg;F';
